@@ -1,8 +1,4 @@
-from random import gauss
-
 import cv2
-import numpy as np
-from PIL.ImageOps import grayscale
 
 img = cv2.imread('images/bookpage.jpg')
 # first_img = cv2.cvtColor(first_img, cv2.COLOR_BGR2GRAY)
